@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+} 
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  width: 80%;
+  margin: auto
+}
+
+@theme {
+  --animate-fadeIn-2s: fadeIn 2s ease-in-out;
+  --animate-fadeIn-1s: fadeIn 1s ease-in-out;
+  --animate-fadeIn-0.5s: fadeIn 0.5s ease-in-out;
+
+  @keyframes fadeIn {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+
+.header {
+    height: 33.6vw;
+    margin: 30px auto;
+    background: url('/header_img.png');
+    background-size: contain;
+    position: relative;
+}
+
+.header h2 {
+    font-size: max(4.5vw,22px);
+    font-weight: 500;
+    color: white;
+    margin: 0 0 1rem 0;
+}
+
+@media (max-width: 1050px) {
+   
+    
+}
+
+@media (max-width: 750px) {
+    .header-contents {
+        max-width: 65%;
+    }
+    .header-contents p {
+        display: none
+    }
+
+    .header-content button {
+        padding: 2vw 4vw;
+    }
+}
