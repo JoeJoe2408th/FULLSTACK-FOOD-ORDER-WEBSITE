@@ -80,10 +80,10 @@ const Add = ({url}) => {
         <div className="flex gap-7.5">
           <div className="flex flex-col gap-4">
             <p>Product category</p>
-            <select onChange={onChangeHandler} className="border p-2.5 max-w-[120px] text-center" >
+            <select onChange={onChangeHandler} name="category" value={data.category} className="border p-2.5 max-w-[120px] text-center" >
               <option className="text-left" value="Salad">Salad</option>
               <option className="text-left" value="Rolls">Rolls</option>
-              <option className="text-left" value="Deserts">Deserts</option>
+              <option className="text-left" value="Deserts">Deserts</option>  
               <option className="text-left" value="Sandwich">Sandwich</option>
               <option className="text-left" value="Cake">Cake</option>
               <option className="text-left" value="Pure Veg">Pure Veg</option>

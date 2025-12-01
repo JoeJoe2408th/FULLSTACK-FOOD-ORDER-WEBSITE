@@ -2,15 +2,15 @@ import { useContext } from "react";
 import { assets } from "../../assets/frontend_assets/assets";
 import { StoreContext } from "../../context/StoreContext";
 
-const FoodItem = ({ id, name, price, description, image }) => {
+const FoodItem = ({ id, name, price, description, imageUrl }) => {
   // const [itemCount, setItemCount] = useState(0);
-  const { cartItems, addToCart, removeFromCart, url } = useContext(StoreContext);
+  const { cartItems, addToCart, removeFromCart } = useContext(StoreContext);
   return (
     <div className="w-full m-auto rounded-[15px] shadow-[0px_0px_10px_#00000015] duration-300 animate-fadeIn-1s">
       <div className="relative">
         <img
           className="w-full rounded-[15px_15px_0px_0px] "
-          src={url + "/images/" + image}
+          src={imageUrl}
           alt={name}
         />
         {!cartItems[id] ? (
