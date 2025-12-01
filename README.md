@@ -2,6 +2,11 @@
 
 Một ứng dụng web đặt món ăn fullstack hoàn chỉnh với giao diện người dùng, trang quản trị và API backend. Người dùng có thể duyệt menu, thêm món vào giỏ hàng, đặt hàng và theo dõi đơn hàng. Admin có thể quản lý sản phẩm và đơn hàng.
 
+## Deploy
+- Dự án này của tôi được deploy trên Render
+- Trang chủ: https://food-order-website-bb5o.onrender.com
+- Trang admin panel: https://food-order-web-admin-panel.onrender.com
+
 ## 🚀 Công nghệ sử dụng
 
 ### Frontend
@@ -204,8 +209,5 @@ Admin Panel sẽ chạy tại: `http://localhost:5174` (hoặc port khác)
 ### Admin
 - react, react-router-dom, axios, tailwindcss, react-toastify
 
-## Deploy
-- Dự án này của tôi được deploy trên Render
-- Trang chủ: https://food-order-website-bb5o.onrender.com
-- Trang admin panel: https://food-order-web-admin-panel.onrender.com
+
 
