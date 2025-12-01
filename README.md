@@ -204,4 +204,8 @@ Admin Panel sẽ chạy tại: `http://localhost:5174` (hoặc port khác)
 ### Admin
 - react, react-router-dom, axios, tailwindcss, react-toastify
 
+## Deploy
+- Dự án này của tôi được deploy trên Render
+- Trang chủ: https://food-order-website-bb5o.onrender.com
+- Trang admin panel: https://food-order-web-admin-panel.onrender.com
 
